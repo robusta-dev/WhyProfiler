@@ -6,7 +6,7 @@ It is also the only Python profiler that both identifies hotspots and recommends
 
 ![WhyProfiler in action](./whyprofiler.gif)
 
-See the release blog post for more information.
+[See the release blog post for more information.](https://home.robusta.dev/blog/whyprofiler-the-worlds-first-hybrid-cpu-profiler-now-for-jupyter-notebook-and-python/)
 
 # Building and running
 
@@ -28,6 +28,6 @@ There is also a prebuilt image at `us-central1-docker.pkg.dev/genuine-flight-317
 # Adding new rules to whyprofiler
 Add a new file with a Semgrep rule to ./whyprofiler/static/semgrep/
 
-You can look at the existing rules for reference. 
+Look at the existing rules for reference. 
 
 Some rules requires installing python packages in order to apply the fix. You can add the `fix_installation` field to Semgrep metadata to do so. [See example.](https://github.com/aantn/nprofile/blob/master/whyprofiler/static/semgrep/use_orjson.yaml#L12)
