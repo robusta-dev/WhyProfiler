@@ -17,13 +17,13 @@ docker build . -t whyprofiler
 docker run -p 8888:8888 whyprofiler
 ```
 
-**TODO: add prebuilt docker images so people don't need to build it themselves**
-
 We don't yet support M1 Macbooks. If you have an M1 Macbook please build an amd64 version of the image instead:
 
 ```bash
 docker build --platform linux/amd64 . --progress=plain -t whyprofiler
 ```
+
+There is also a prebuilt image at `us-central1-docker.pkg.dev/genuine-flight-317411/devel/whyprofiler:v1`
 
 # Adding new rules to whyprofiler
 Add a new file with a Semgrep rule to ./whyprofiler/static/semgrep/
