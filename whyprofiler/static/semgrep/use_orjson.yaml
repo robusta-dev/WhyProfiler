@@ -1,0 +1,15 @@
+rules:
+- id: use_orjson
+  pattern: |
+    import json
+    ...
+    json.dumps($X)
+  fix-regex:
+    regex: 'import json'
+    replacement: 'import orjson as json'
+  metadata:
+    fixable: true
+    fix_installation: 'orjson'
+  message: Use orjson for faster json dumps
+  languages: [python]
+  severity: ERROR

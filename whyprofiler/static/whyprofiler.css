@@ -1,0 +1,130 @@
+.whyprofiler-codemirror-gutter {
+    width: 60px;
+}
+
+.whyprofiler-codemirror-fix {
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.whyprofiler-codemirror-successs {
+    background-color: #90EE90;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.whyprofiler-codemirror-fix-prefix {
+    color: black;
+    font-style: italic;
+    font-size: 12px;
+    display: inline;
+}
+
+.whyprofiler-codemirror-fix-border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.whyprofiler-codemirror-fix-apply-btn {
+    color: black;
+    font-style: italic;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+/* 
+    light color palette: https://coolors.co/a71e34-b21e35-bd1f36-d24055-e66074-ed8392-f3a5b0-f7c0c8-f9ced4-fadbdf
+*/
+.whyprofiler-severity-10 {
+    background-color: #a71e34ff;
+}
+
+.whyprofiler-severity-9 {
+    background-color: #b21e35ff;
+}
+
+.whyprofiler-severity-8 {
+    background-color: #bd1f36ff;
+}
+
+.whyprofiler-severity-7 {
+    background-color: #d24055ff;
+}
+
+.whyprofiler-severity-6 {
+    background-color: #e66074ff;
+}
+
+.whyprofiler-severity-5 {
+    background-color: #ed8392ff;
+}
+
+.whyprofiler-severity-4 {
+    background-color: #f3a5b0ff;
+}
+
+.whyprofiler-severity-3 {
+    background-color: #f7c0c8ff;
+}
+
+.whyprofiler-severity-2 {
+    background-color: #f9ced4ff;
+}
+
+.whyprofiler-severity-1 {
+    background-color: #fadbdfff;
+}
+
+.whyprofiler-severity-0 {
+    background-color: #ffffff;
+}
+
+/* darker color palette: https://coolors.co/641220-6e1423-85182a-a11d33-a71e34-b21e35-bd1f36-e66074-f3a5b0-fadbdf */
+/*
+.whyprofiler-severity-10 {
+    background-color: #641220ff;
+}
+
+.whyprofiler-severity-9 {
+    background-color: #6e1423ff;
+}
+
+.whyprofiler-severity-8 {
+    background-color: #85182aff;
+}
+
+.whyprofiler-severity-7 {
+    background-color: #a11d33ff;
+}
+
+.whyprofiler-severity-6 {
+    background-color: #a71e34ff;
+}
+
+.whyprofiler-severity-5 {
+    background-color: #b21e35ff;
+}
+
+.whyprofiler-severity-4 {
+    background-color: #bd1f36ff;
+}
+
+.whyprofiler-severity-3 {
+    background-color: #e66074ff;
+}
+
+.whyprofiler-severity-2 {
+    background-color: #f3a5b0ff;
+}
+
+.whyprofiler-severity-1 {
+    background-color: #fadbdfff;
+}
+
+.whyprofiler-severity-0 {
+    background-color: #ffffff;
+}
+*/

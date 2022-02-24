@@ -1,0 +1,3 @@
+recursive-include whyprofiler/static *.js
+recursive-include whyprofiler/static *.css
+recursive-include whyprofiler/static *.yaml
